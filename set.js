@@ -7,7 +7,7 @@ const databasePath = path.join(__dirname, './database.db');
 const DATABASE_URL = process.env.DATABASE_URL === undefined
     ? databasePath
     : process.env.DATABASE_URL;
-module.exports = { session: process.env.SESSION_ID || 'zokk',
+module.exports = { session: process.env.SESSION_ID || 'v8w0zYSY#wIIws1A8C0n7TbdaFLA5OMxOhbJxMccnAmQMmajjuPQ',
     PREFIXE: process.env.PREFIX || ".",
     GITHUB : process.env.GITHUB|| 'https://files.catbox.moe/xtkghn.jpg',
     OWNER_NAME : process.env.OWNER_NAME || "TimnasaTech",
